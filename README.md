@@ -3,7 +3,7 @@
 
 **React Portals**
 
--``` **reactDom.createPortal(<h1>hello</h1>, document.getElementById('other-root'))**```
+-``` reactDom.createPortal(<h1>hello</h1>, document.getElementById('other-root'))```
 - React Portals are a powerful feature in React that allows you to render components outside the current React tree hierarchy.
 - With portals, you can easily render elements into different parts of the DOM, such as modals, tooltips, or any other component that needs to break out of the component's container.
 
